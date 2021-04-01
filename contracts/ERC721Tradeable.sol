@@ -15,8 +15,8 @@ contract ERC721Tradable is ERC721Full, Ownable {
 
     constructor(
         string memory _name,
-        string memory _symbol,
-    ) public ERC721Full(_name, _symbol)
+        string memory _symbol
+    ) public ERC721Full(_name, _symbol) {}
 
     /**
      * @dev Mints a token to an address with a tokenURI.

@@ -1,10 +1,7 @@
-pragma solidity ^0.8.0;
+pragma solidity ^0.5.0;
 
-import "./ERC721Tradbeable.sol";
+import "./ERC721Tradeable.sol";
 
 contract MyNFT is ERC721Tradable {
-    constructor() ERC721Tradable("MyNFT", "MNFT")
+    constructor() public ERC721Tradable("MyNFT", "MNFT"){}
 }
-
-
-orient crucial bleak lazy illegal canal evil initial ranch sibling interest polar
